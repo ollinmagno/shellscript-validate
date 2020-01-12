@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Shell check</title>
@@ -11,17 +11,27 @@
         body {
             background-color: rgb(165, 252, 176);
         }
-        
+
         .container {
             background-color: #d9d9d9;
             border: 0.1px solid black;
             border-radius: 15px;
             padding: 25px;
-            margin-top: 45px;
+            margin-top: 85px;
             margin-bottom: 45px;
             width: 50%;
-
         }
+
+        .rodape {
+            width: 100%;
+            height: 45px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color:rgb(202, 183, 255);
+        }
+
     </style>
 </head>
 <div class="container">
@@ -33,8 +43,13 @@
     <div class="form-group">
         <label>Saída</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        
+
     </div>
 </div>
+<footer class="rodape">
+    <p class="copyright">
+    Copyright © 2019 
+    </p>
+</footer>
 
 </html>
