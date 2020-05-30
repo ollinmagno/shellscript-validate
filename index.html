@@ -153,16 +153,50 @@
         
     </div>
 
-    <div class="espacamento"></div>
+<!-- MODAL -->
+    <div class="modal fade" id="descricaoModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenvolvedores</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt volutpat dolor,
+                        commodo commodo nisi semper blandit. In accumsan turpis eu mauris porttitor iaculis.
+                        Phasellus condimentum quis neque a maximus. Etiam a ipsum auctor, varius eros vitae, iaculis
+                        risus.
+                        Morbi nec tristique arcu, sed placerat augue. Suspendisse potenti. Nam dolor leo, tempor sit
+                        amet orci
+                        quis, dictum vulputate felis. In tempor ligula vel tincidunt egestas. In nunc sapien, imperdiet
+                        ac
+                        varius vel, dictum et arcu. Morbi porttitor neque ut eros laoreet tristique. Mauris eleifend
+                        cursus vestibulum.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /MODAL -->
+
+    <div class="espacamento"></div>
+    <!-- Fotter -->
     <div class="fixed-bottom bg-dark d-flex justify-content-center footer font-footer">
         <div class="row">
             <a class="link" href="">Sobre</a>
             <a class="link" target="blank" href="https://github.com/ollinmagno/shellscript-validate">Github page</a>
-            <a class="link" target="blank" href="">Desenvolvedores</a>
+            <a class="link" target="blank" data-toggle="modal" data-target="#descricaoModal" href="">Desenvolvedores</a>
             <a href="" class="link">Contato</a>
         </div>
     </div>
+    <!--/Fotter -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
